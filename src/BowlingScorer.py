@@ -26,6 +26,4 @@ def calc_scores(scores):
 score_List = ["X-X-X-X-X-X-X-X-X-XXX", "45-54-36-27-09-63-81-18-90-72", '3/-7/-1/-8/-7/-8/-3/-5/-5/-5/',
               'X-X-X-X-X-X-X-X-X-X3/', "X-5/-X-8/-X-9/-X-2/-X-X3/"]
 for score in score_List:
-    print(calc_scores(score))
-
-
+    print("The score for %s is %d" % (score, calc_scores(score)))
